@@ -55,6 +55,9 @@
   .product_card {
     width: 90%;
   }
+  .input_container {
+    width: 90%;
+  }
 }
 @media (max-width: 425px) {
   .product_card {
@@ -63,4 +66,15 @@
   .product_content button {
     align-self: stretch;
   }
+}
+.input_container {
+  display: flex;
+  justify-content: center;
+  width: 600px;
+  margin: auto;
+}
+.input_container input {
+  width: 100%;
+}
+.search_icon {
 }
