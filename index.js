@@ -25,7 +25,7 @@
           <p>
            ${product.description.split(" ").slice(0, 20).join(" ")}
           </p>
-          <button>${product.price}</button>
+          <button>${product.price} $</button>
         </div>
       </div>
     `;

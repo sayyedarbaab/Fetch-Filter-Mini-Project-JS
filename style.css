@@ -8,6 +8,7 @@
   flex-direction: column;
   gap: 30px;
   align-items: center;
+  margin-top: 20px;
 }
 .product_card {
   box-shadow: 0px 7px 32px rgba(0, 0, 0, 0.25);
@@ -50,6 +51,7 @@
   padding: 5px 20px;
   margin-top: 10px;
   align-self: end;
+  cursor: pointer;
 }
 @media (max-width: 630px) {
   .product_card {
@@ -72,9 +74,25 @@
   justify-content: center;
   width: 600px;
   margin: auto;
+  margin-top: 20px;
 }
 .input_container input {
   width: 100%;
+  padding-left: 35px;
+  height: 25px;
+  border: 2px solid lightblue;
 }
-.search_icon {
+.search_icone {
+  position: relative;
+  left: 35px;
+  margin-left: -22px;
+  display: flex;
+  place-items: center;
+}
+.search_icone img {
+  position: relative;
+  left: 0px;
+  height: 3vh;
+  width: 100%;
+  padding: 3px 2px 0px 10px;
 }
