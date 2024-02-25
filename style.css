@@ -72,27 +72,30 @@
 .input_container {
   display: flex;
   justify-content: center;
+  align-items: center; 
   width: 600px;
   margin: auto;
   margin-top: 20px;
+  position: relative; 
 }
+
 .input_container input {
-  width: 100%;
+  width: calc(100% - 4px);
   padding-left: 35px;
   height: 25px;
   border: 2px solid lightblue;
+  box-sizing: border-box;
 }
-.search_icone {
-  position: relative;
-  left: 35px;
-  margin-left: -22px;
-  display: flex;
-  place-items: center;
+
+.search_icon_container {
+  position: absolute; 
+  left: 2px; 
+  top: 50%;
+  transform: translateY(-50%);
 }
-.search_icone img {
-  position: relative;
-  left: 0px;
-  height: 3vh;
-  width: 100%;
-  padding: 3px 2px 0px 10px;
+
+.search_icon_container img {
+  height: 14px; 
+  width: auto;
+  padding: 3px 15px 0px 12px;
 }
