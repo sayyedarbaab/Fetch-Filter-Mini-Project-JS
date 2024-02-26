@@ -87,15 +87,4 @@
   box-sizing: border-box;
 }
 
-.search_icon_container {
-  position: absolute; 
-  left: 2px; 
-  top: 50%;
-  transform: translateY(-50%);
-}
 
-.search_icon_container img {
-  height: 14px; 
-  width: auto;
-  padding: 3px 15px 0px 12px;
-}
